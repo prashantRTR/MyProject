@@ -1,0 +1,268 @@
+tr{
+
+    border:'2px solid black';
+}
+
+.mynav {
+ display: block;
+align-items: center;
+background-color:cornflowerblue;
+
+}
+
+.flex-container
+{
+    display:flex;
+    justify-content:flex-end;
+    border:1px solid black;
+    position:relative;
+    
+
+}
+
+.flex-container>div{
+   
+    
+    margin: 30px;
+    align-items: center;
+    border:1px solid black; 
+    font-size: 30px;
+    
+
+
+}
+
+
+.flex_layout{
+
+    display:flex;    
+    border:1px solid black;
+    justify-content: center;
+    
+ 
+}
+
+
+
+
+.welcomeImg{
+    display:flex;
+    position: relative;
+    height: 375px;   
+    border:1px solid black;
+    width:400px;
+    justify-content:flex-end;
+
+   
+
+}
+
+.tagline
+{    
+    
+    border:1px solid black;
+    text-align: left;
+    font-size:22px;
+    font-family: Product Sans;
+    padding-left: 40px;
+   
+}
+
+.btn{
+    height:40px;
+    width: 140px;
+    background-color: darkslateblue;
+    border-radius: 5px;
+    color:whitesmoke;
+    
+}
+  
+
+.navbar
+{
+    margin-top:50px;
+
+background-color:darkslateblue;
+color:white;
+border:1px solid black;
+height:50px;
+display:flex;   
+justify-content:center;
+align-items: center;
+margin-left:101px;
+margin-right:93.7px;
+width:auto;
+border: 1px solid black;
+
+}
+
+
+
+.cityWeather
+{
+display:flex;
+position: relative;
+justify-content:left;
+align-items:left;
+margin-left:101px;
+margin-right: 93.7px;
+border:1px solid black;
+
+
+}
+
+.cityWeather>div{
+   
+    height:210px;
+    width: 265px;
+    border:1px solid black;
+}
+
+.Canberra
+{
+background-color: #0D7E88;
+font-weight: bold;
+   font-size:25px;
+   color:white;
+}
+
+.Tokyo
+{
+background-color: #D09378; 
+font-weight: bold;
+   font-size:25px;
+   color:white;
+
+}
+
+.London
+{
+   background-color: #405B5D;
+   font-weight: bold;
+   font-size:25px;
+   color:white;
+}
+
+.Dubai
+{
+    background-color: #74A748;
+    font-weight: bold;
+   font-size:25px;
+   color:white;
+}
+
+
+
+
+.inner
+{
+   
+    display:flex;
+    margin-left: 85px;
+    border: 2px solid #405B5D;
+}
+
+label{
+   float:left; 
+   position: relative;
+   
+}
+.cities
+{
+    border-radius:5px;
+    height:250px;
+    border: 2px solid black;
+    flex-direction:row;
+    text-align: bottom;
+
+}
+img{
+
+    border-radius: 5px;  
+   
+}
+
+
+.imgdiv{
+   padding: 10px;
+
+}
+
+
+.myform
+{
+    display:flex;
+    flex-direction:column;
+   justify-content:center; 
+    align-items:center;
+    border: 1px solid black;
+}
+
+.innerform
+{
+    display:flex;
+    flex-direction:column;  
+    /* align-items:left;
+    justify-content:left; */
+   
+}
+
+
+
+    
+
+input{
+    height:40px;
+    width:500px;
+    border-radius:2px;
+    float: center;
+    color:lightgray;
+    font-size:14px;
+
+}
+
+
+.mylabel
+{  display:flex;
+   align-items: left;
+   justify-content:left;
+   margin-top: 10px;
+   margin-bottom:10px;
+   font-size:14px;
+   font-weight:bold;
+   color: lightgrey;
+}
+
+.formbtn
+{
+height:40px;
+width:150px;
+align-self: center;
+}
+
+.Myfooter
+{
+    display:flex;
+    background-color:lightblue;
+    color:white;
+    font-size:18px;
+}
+
+.mytable
+{
+    padding:30px;
+    
+}
+
+tr,td,th
+{
+    border: 2px solid black;
+    padding-left: 35px;
+    padding-right: 35px;
+   
+}
+
+.textdiv
+{   padding-left: 10px;
+    float:left;
+}
